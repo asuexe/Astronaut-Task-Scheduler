@@ -1,0 +1,125 @@
+body {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin to separate buttons */
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.completed {
+  background-color: #e9ffe9;
+  text-decoration: line-through;
+}
+
+.edit-button {
+  background-color: #007bff; /* Blue for Edit */
+}
+
+.edit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.remove-button {
+  background-color: #dc3545; /* Red for Remove */
+}
+
+.remove-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Ensure spacing for task item */
+.task-item button {
+  margin-left: 10px; /* Optional: Add more space between buttons */
+}
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between elements */
+}
+
+.task-form input, 
+.task-form select, 
+.task-form button {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat font */
+}
+
+.task-form input[type="text"] {
+  font-size: 16px;
+}
+
+.task-form .time-picker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-picker label {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+button {
+  background-color: #28a745; /* Green */
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838; /* Darker green */
+}
